@@ -21,6 +21,7 @@ public class Guru99Logintest extends BaseTest {
 		Guru99Loginpage guru99loginpage =  PageinstancesFactory.getInstance(Guru99Loginpage.class);
 		guru99loginpage.username("Nikhila");
 		guru99loginpage.password("abcd");
+		guru99loginpage.clicklogin();
 		
 		/*
 		 * FacebookLoginPage facebookLoginPage =

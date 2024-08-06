@@ -14,6 +14,9 @@ public class Guru99Loginpage extends BasePage{
 	private WebElement username;
 	@FindBy(name= "password")
 	private WebElement password;
+	
+	@FindBy(name= "btnLogin")
+	private WebElement login;
 	public void username(String id) {
 		username.sendKeys(id);
 		
@@ -25,6 +28,10 @@ public class Guru99Loginpage extends BasePage{
 		
 	}
 	
+	public void clicklogin(){
+	login.click();
+		
+	} 
 
 }
 
