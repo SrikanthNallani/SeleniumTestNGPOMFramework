@@ -4,10 +4,10 @@
 	<listeners></listeners>
 	<test name="test" >
 		<classes>
-<!--			<class name="example.example.tests.GoogleSearchTest" />-->
-<!--			<class name="example.example.tests.Guru99Logintest"></class>-->
-<!--			<class name="example.example.tests.FaceBookLoginTest"></class>-->
-<!--			<class name="example.example.tests.AmazonLoginTest"></class>-->
+			<class name="example.example.tests.GoogleSearchTest" />
+			<class name="example.example.tests.Guru99Logintest"></class>
+			<class name="example.example.tests.FaceBookLoginTest"></class>
+			<class name="example.example.tests.AmazonLoginTest"></class>
 			<class name="example.example.tests.Guru99registrationTest"></class>
 		</classes>
 	</test> <!-- Test -->

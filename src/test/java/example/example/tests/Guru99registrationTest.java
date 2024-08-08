@@ -27,11 +27,6 @@ public class Guru99registrationTest extends BaseTest {
 		/* Registration steps v*/
 		Guru99registrationpage registration = PageinstancesFactory.getInstance(Guru99registrationpage.class);
 		registration.clickNewcust();
-		/*
-		 * FacebookLoginPage facebookLoginPage =
-		 * PageinstancesFactory.getInstance(FacebookLoginPage.class);
-		 * facebookLoginPage.enterEmail("abc").enterPassword("abc").clickSignIn();
-		 * Assert.assertFalse(false, "Login Sucess");
-		 */
+		
 	}
 }
