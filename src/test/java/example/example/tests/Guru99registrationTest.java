@@ -24,6 +24,7 @@ public class Guru99registrationTest extends BaseTest {
 		guru99loginpage.username("mngr583941");
 		guru99loginpage.password("zUsUzEr");
 		guru99loginpage.clicklogin();
+		/* Registration steps*/
 		Guru99registrationpage registration = PageinstancesFactory.getInstance(Guru99registrationpage.class);
 		registration.clickNewcust();
 		/*
